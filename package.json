@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-microservices",
+  "version": "1.0.0",
+  "description": "nodejs microservices demo",
+  "main": "handlers.js",
+  "scripts": {
+    "start": "",
+    "dev": "",
+    "deploy": "serverless deploy",
+    "lint": "eslint ./src --ext .json --ext .js --fix"
+  },
+  "keywords": [
+    "node",
+    "microservice",
+    "lambda",
+    "serverless"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.796.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-watch": "^3.1.4",
+    "serverless": "^2.11.1"
+  }
+}
